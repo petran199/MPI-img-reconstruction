@@ -1,0 +1,22 @@
+﻿Build started 20/1/2017 2:22:59 πμ.
+     1>Project "C:\Users\Petran\Documents\Visual Studio 2015\Projects\mpiProj\mpiProj\mpiProj.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Petran\Desktop\mpi\mpiProj\x64\Debug /I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include\\" /I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include\\x64." /AIC:\opencv\install\include\ /ZI /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\mpiProj.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\users\petran\documents\visual studio 2015\projects\mpiproj\mpiproj\stdafx.cpp(81): warning C4101: 'ni': unreferenced local variable
+     1>c:\users\petran\documents\visual studio 2015\projects\mpiproj\mpiproj\stdafx.cpp(111): warning C4101: 'ni': unreferenced local variable
+     1>c:\users\petran\documents\visual studio 2015\projects\mpiproj\mpiproj\stdafx.cpp(210): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\petran\documents\visual studio 2015\projects\mpiproj\mpiproj\stdafx.cpp(190): warning C4101: 'MAX': unreferenced local variable
+     1>c:\users\petran\documents\visual studio 2015\projects\mpiproj\mpiproj\stdafx.cpp(190): warning C4101: 'MIN': unreferenced local variable
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Petran\Desktop\mpi\mpiProj\x64\Debug /I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include\\" /I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include\\x64." /AIC:\opencv\install\include\ /ZI /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\mpiProj.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt mpiProj.cpp
+         Skipping... (no relevant changes detected)
+         mpiProj.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Petran\Documents\Visual Studio 2015\Projects\mpiProj\x64\Debug\mpiProj.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64\\" msmpi.lib msmpifec.lib msmpifmc.lib "C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64\\" opencv_calib3d320d.lib opencv_contrib320d.lib opencv_core320d.lib opencv_features2d320d.lib opencv_flann320d.lib opencv_gpu320d.lib opencv_highgui320d.lib opencv_imgproc320d.lib opencv_legacy320d.lib opencv_ml320d.lib opencv_nonfree320d.lib opencv_objdetect320d.lib opencv_photo320d.lib opencv_stitching320d.lib opencv_ts320d.lib opencv_video320d.lib opencv_videostab320d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ALLOWISOLATION:NO /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Petran\Documents\Visual Studio 2015\Projects\mpiProj\x64\Debug\mpiProj.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Petran\Documents\Visual Studio 2015\Projects\mpiProj\x64\Debug\mpiProj.lib" /MACHINE:X64 x64\Debug\mpiProj.obj
+         x64\Debug\stdafx.obj
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64\\.obj'
+     1>Done Building Project "C:\Users\Petran\Documents\Visual Studio 2015\Projects\mpiProj\mpiProj\mpiProj.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.33
